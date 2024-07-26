@@ -1,0 +1,36 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Локальный чат - v1.0.0",
+		"description": "Данный аддон добавляет на ваш сервер локальный и глобальный чаты со встроенными рангами и анти-спамом!\n\n§fНастройка находится в файле §6config.js§f\n\nСоздатель: §6WhiteeCattt§f\nТелеграм-канал: §6t.me/addons_pe",
+		"uuid": "8c83ddce-b68f-42e6-a283-38d9274313ac",
+		"version": [ 1, 0, 0 ],
+		"min_engine_version": [ 1, 20, 50 ]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "8c74e5e0-1c28-4808-a710-f7fb00a215f3",
+			"version": [ 0, 0, 1 ]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/index.js",
+			"uuid": "f4271983-179c-4083-81a2-89404b0673e6",
+			"version": "1.4.0-beta"
+		}
+	],
+	"metadata": {
+		"authors": ["WhiteeCattt"],
+		"license": "MIT",
+		"url": "https://t.me/addons_pe"
+	},
+	"dependencies": [
+		{
+			"description": "@minecraft/server module dependency",
+			"module_name": "@minecraft/server",
+			"version": "1.8.0-beta"
+		}
+	]
+}
